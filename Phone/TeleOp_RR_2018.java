@@ -6,7 +6,7 @@ import com.qualcomm.robotcore.hardware.DcMotor;
 import com.qualcomm.robotcore.hardware.Servo;
 
 /**
- * Created by Jorge on 14/11/2017.
+ * Created by Jorge Nava on 14/11/2017.
  */
 @TeleOp(name ="TeleOp_RR_2018",group = "TeleOp")
 public class TeleOp_RR_2018 extends OpMode {
