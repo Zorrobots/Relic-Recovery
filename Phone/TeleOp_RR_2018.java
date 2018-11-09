@@ -114,7 +114,7 @@ public class TeleOp_RR_2018 extends OpMode {
             RG_S_G.setPosition(.45);
             LG_S_G.setPosition(.45);
         }
-        if (gamepad2.left_bumper){ //ME GUSTA EL PENE
+        if (gamepad2.left_bumper){ 
 
             //ME GUSTA EL PENE
             GlyphServoGrabber.setPosition(1);
@@ -130,18 +130,18 @@ public class TeleOp_RR_2018 extends OpMode {
 
         //RELIC TOOLS
         RelicArm.setPower(gamepad2.left_stick_y);
-        if (gamepad2.dpad_right) { //ME GUSTA EL PENE
+        if (gamepad2.dpad_right) { 
             R_C.setPosition(.6);//OPEN CLAW PUEDE SER R_A
         } else if (gamepad2.dpad_left) {
             R_C.setPosition(0);//CLOSE CLAW
-        } else if (gamepad2.dpad_up) { //ME GUSTA EL PENE
+        } else if (gamepad2.dpad_up) { 
             R_A.setPosition(.7);//LIFT ARM
         }else if (gamepad2.dpad_down) {
             R_A.setPosition(0);//THROW ARM PUEDE SER R_C
         }
 
         //JEWEL ARMS
-        if (gamepad1.right_bumper){ //ME GUSTA EL PENE
+        if (gamepad1.right_bumper){ 
             R_S_J.setPosition(.6); //THROW RIGHT JEWEL ARM
         }
         else if(gamepad1.left_bumper){
